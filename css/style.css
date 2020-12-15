@@ -68,7 +68,7 @@ li {
   position: fixed;
   z-index: -1;
   font-family: 'Oswald', sans-serif;
-  font-size: 75px;
+  font-size: 70px;
   letter-spacing: 1px;
   transform: scaleY(1.7);
 }
@@ -306,7 +306,7 @@ li {
   -webkit-text-stroke:1px #fff;
 }
 
-@media only screen and (max-width:1175px){
+@media only screen and (max-width:1300px){
   .title{
     font-size: 50px;
   }
@@ -329,7 +329,7 @@ li {
   }
 
   .second-img{
-    height: 180px;
+    height: 200px;
   }
 
   .imgs-3{
@@ -381,7 +381,9 @@ li {
   }
 
   .forest{
-    top: 60%;
+    top: 30%;
+    width: 150%;
+    height: 150%;
   }
 
   .forest img{
@@ -393,6 +395,21 @@ li {
   .circle:after{
     margin-left: -170px;
   }
+
+  .right{
+    position: fixed;
+    top: 10px;
+    left: 0;
+  }
+
+  .right ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right ul li {
+    margin-bottom: 15px;
+  }
 }
 
 @media only screen and (max-width:570px){
@@ -403,6 +420,12 @@ li {
   .sub-title{
     font-size: 12px;
   }
+
+  .forth-img,
+  .first-img {
+    height: 400px;
+  }
+
 }
 
 @media only screen and (max-width:480px){
@@ -410,4 +433,34 @@ li {
     font-size: 20px;
   }
 }
+
+@media only screen and (max-width:430px){
+  .title{
+    font-size: 16px;
+  }
+
+  .second-img{
+    height: 250px;
+  }
+
+  .forth-img{
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width:370px){
+  .first-img{
+    height: 310px;
+  }
+
+  .third-img{
+    height: 150px;
+  }
+}
+/* 
+@media only screen and (max-width:320px){
+  .third-img{
+    height: 180px;
+  }
+} */
 
